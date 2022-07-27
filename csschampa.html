@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!-- champa ram is here ok -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champa Ram</title>
+    <meta name="description" content="This is description">
+    <meta name="keywords" content="html, html tutorial">
+    <meta name="robots" content="INDEX, FOLLOW">
+
+    <!-- include external css -->
+    <link rel="stylesheet" href="css/link.css">
+
+    <!-- external include js -->
+    <script src="champa.js"></script>
+
+    <!-- include internal css -->
+    <style>
+        h1 {
+            color: violet;
+            background-color: indigo;
+        }
+    </style>
+
+    <!-- Selector-->
+    <style>
+        /* Element selector */
+        h4 {
+            color: brown;
+        }
+
+        /* Id selector */
+        #ram {
+            color: aqua;
+        }
+
+        /* Class selector */
+        .sita {
+            color: blueviolet;
+        }
+
+        /* grouping slector */
+        #bharat,
+        .lakshman {
+            color: gold;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Champa Ram <h1>
+            <hr>
+            <h2>IIT Madras</h2>
+
+            <!-- include inline css -->
+            <h3 style="color: orange; background-color: green;">Civil Engineer</h3>
+            <h4>B.Tech</h4>
+            <h5>Jodhpur</h5>
+            <h6 class="lakshman">Jati Bhandu</h6>
+
+            <!-- PARAGRAPH WRITTING -->
+            <p id="ram">I am student of <strong>IIT Madras <strong></p>
+
+            <p class="sita">The IIT Madras has awesome campous in all IITies.<br>I am now 2nd year <i>4rd semester</i>
+                explore
+                the things of
+                iities</p>
+            <p id="bharat"> I want a become a web development </p>
+
+            <!-- LINK AND IMAGE UPLOADING -->
+            <a href="https://pay.iitm.ac.in">Go to IIT Payment</a><br>
+            <a href="https://mail.google.com" target="-blank">Go to Gmail Acount</a><br>
+
+            <img src="champa.jpg" alt="image not Found"><br><br>
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi7-bMQITx_aDIf327FFsFt6m-SBj_Sjakag&usqp=CAU"><br>
+
+            <!-- LIST MAKING -->
+            <h3>List</h3>
+            <ul type="disc">
+                <li>Bhagwana Ram</li>
+                <ul>
+                    <li>Rishhpal</li>
+                </ul>
+                <li>Dinesh</li>
+                <ul>
+                    <li>Pradeep</li>
+                </ul>
+                <li>Derama Ram</li>
+                <li>Champa Ram</li>
+                <li>Indra Raj</li>
+            </ul>
+
+            <ol type="i">
+                <li>Imarti Devi</li>
+                <ol>
+                    <li>Divya</li>
+                </ol>
+                <li>Guddi Devi</li>
+                <ol>
+                    <li>Diksha</li>
+                </ol>
+                <li>Dhapu Devi</li>
+                <li>Maya Devi</li>
+            </ol>
+
+            <!-- TABLE CREATING -->
+            <h3>Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.NO.</th>
+                        <th>Name</th>
+                        <th>Occupasion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Bhagwana Ram</td>
+                        <td>Raj Police</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Dinesh</td>
+                        <td>Agriculture</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Derama Ram</td>
+                        <td>Shopkeeper</td>
+                    </tr>
+                </tbody>
+            </table> <br>
+
+            <!-- FORMS AND INPUT -->
+            <h3>Form</h3>
+            <form action="backend.php"></form>
+            <div>
+                <label for="Myname">Name:</label>
+                <input type="text" id="Myname">
+            </div><br>
+            <div>
+                Role No.: <input type="Number text" name="myrolenumber">
+            </div><br>
+            <div>
+                Date: <input type="date" name="mydate">
+            </div><br>
+            <div>
+                Are you Indian: <input type="checkbox" checked name="mycountry">
+            </div><br>
+            <div>
+
+                <label for="a">State</label>
+                <select name="" id="a">
+                    <option value="">A</option>
+                    <option value="">B</option>
+                    <option value="">C</option>
+                    <option value="">D</option>
+                    <option value="">E</option>
+                    <option value="">F</option>
+
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="myage">Age</label>
+                <select name="writeage" id="myage">
+                    <option value="B 18">Bellow 18</option>
+                    <option value="A 18" selected>Above 18</option>
+                </select>
+            </div><br>
+            <div>
+                Gender: Male <input type="radio" name="mygender">
+                Female <input type="radio" name="mygender">
+                Other <input type="radio" name="mygender">
+            </div><br>
+            <div>
+                Write yourself: <br>
+                <textarea name="mytext" cols="60" rows="10"></textarea>
+            </div><br>
+            <input type="submit" value="Submit Now">
+
+            <input type="reset" value="Reset Now">
+
+
+            <!-- INLINE AND BLOCK -->
+            <H3>Inline</H3>
+            <span style="border:2px solid violet;">Satya Bharti School</span>
+            <strong style="border: 2px solid indigo;">Jawahar Navodaya Vidhyalaya</strong>
+            <a style="border: 2px solid blue;">Oil India Super 30</a>
+            <i style="border: 2px solid orange;">IIT Madras</i>
+            <em style="border: 2px solid red;">Placement</em>
+
+            <h3>Block</h3>
+            <p style="border: 2px solid green;">Primary Education</p>
+            <div style="border: 2px solid yellow;">Senior secondary Education</div>
+
+            <!-- IDs AND CLASSES -->
+            <H3>IDs and Classes</H3>
+            <div id="Its a unik id" class="class of id it may be multiple for one id"></div>
+            <!-- Tag.XX use for the class XX and Tag#YY use for the Id YY-->
+            <!-- Emmet takes div as a default tag -->
+            <!-- span.class1class2.class3*n+ tab/enter for similar element span  -->
+            <span class="class1 class2 class3">First</span>
+            <span class="class1 class2 class3">Second</span>
+            <span class="class1 class2 class3">Third</span>
+
+            <!-- ENTITIES -->
+            <h3>Entities</h3>
+            <div class="container">
+                5 &lt; 8 <br>
+                1 &gt; -9 <br>
+                for more space between word like "you &nbsp;&nbsp; are"<br>
+                1 divede by 4 write as &frac14; <br>
+                for empty mesage like "&#8203;"
+            </div>
+
+            <!-- SEMANTIC TAGS -->
+            <h3>Semantic Tags</h3>
+            <details>
+                <summary>I did my prepation of JEE Aedvance from </summary>
+                <strong> Oil india super 30 Jodhpur.</strong>
+            </details>
+</body>
+
+</html>
